@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website | Inam Ilyas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <!-- navbar -->
+        <!-- navbar -->
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg" alt="" class="logo"></a>
+            <ul class="nav-list" id="navList">
+                <li class="nav-list-item"><a href="index.html">Home</a></li>
+                <li class="nav-list-item"><a href="ourplans.html">Our Plans</a></li>
+                <li class="nav-list-item"><a href="about.html">About Us</a></li>
+                <li class="nav-list-item"><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="manu-icon" onclick="toggleManu()">
+                <div class=" line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+
+        <h1>About Us</h1>
+    </section>
+
+    <!-- About Us content  -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-column">
+                <h1>CRIPTO WORLD MINING COMPANY</h1>
+                <p><span>CRIPTO WORLD MINING COMPANY</span> 🌎 is an automated trading platform where you put in an
+                    amount you can
+                    afford from our variety of trading options and our systems trade them and make profits which are
+                    sent to you within 48hours as we operate on a round the clock server.<span>CRIPTO WORLD MINING
+                        COMPANY</span>
+                    offers high net worth and affluent individuals around the world a complete range of tailored advice
+                    and investment services in cryptocurrencies. Our spectrum ranges from investment management to
+                    corporate finance advice, in addition to specific wealth management products and services...</p>
+                <p><span>CRIPTO WORLD MINING COMPANY</span> is a USA registered Crypto mining/trading platform launched
+                    and built on
+                    the Ethereum Blockchain since 2018. The trading section is powered by super-fast and accurate AI
+                    based Crypto Trading robots that make trades on various asset classes based on complex algorithms
+                    inculcated during their design and testing.</p>
+            </div>
+            <div class="about-column">
+                <img src="images/company.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="mission">
+        <h1>Our Mission</h1>
+        <p>We have just one mission: To make the benefits of crypto reach the common man. Even if you do not
+            have enough money to purchase a full Bitcoin or Ethereum, you can join us from any part of the world
+            to mine your own coins through our unlimited earnings program.</p>
+    </section>
+
+    <!-- Our Team -->
+    <Section class="our-team">
+        <h1>Meet the Manager</h1>
+        <p>Our experts in the field of crypto currency can always help you with any of your questions!</p>
+        <div class="members">
+
+            <div class="mem-card flex">
+                <div>
+                    <img src="images/CATRINAI.jpg" alt="">
+                    <p class="name">CATRINAI</p>
+                </div>
+                <p class="work">I'm a professional stock broker and binary trade expert/account manager with years of
+                    experience. I am set up with a broker and manage and handle accounts for them. I've an autotrader
+                    software which enables me make profit with my accounts always....</p>
+            </div>
+
+        </div>
+        <!-- <div class="team-card">
+            <div class="team-intro">
+                <img src="images/CATRINAI.jpg" alt="">
+                <p class="name">CATRINAI</p>
+                <p class="worker">Manager</p>
+            </div>
+            <div>
+                <p class="team-desc">I'm a professional stock broker and binary trade expert/account manager with years of
+                    experience. I am set up with a broker and manage and handle accounts for them. I've an autotrader
+                    software which enables me make profit with my accounts always....</p>
+            </div>
+        </div> -->
+    </Section>
+
+    <!-- Footer  -->
+    <footer>
+        <p>Copyright ©2022 All Rights Reserved | CRIPTO WORLD</p>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <!-- JavaScript -->
+    <script>
+        let navLinks = document.getElementById("navList");
+        function toggleManu() {
+            console.log('clicked on show');
+
+            if (navLinks.style.right == "-400px") {
+                navLinks.style.right = "-135px";
+            }
+            else {
+                navLinks.style.right = "-400px";
+            }
+        }
+    </script>
+</body>
+
+</html>

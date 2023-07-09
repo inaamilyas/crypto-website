@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website | Inam Ilyas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <!-- navbar -->
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg" alt="" class="logo"></a>
+            <ul class="nav-list" id="navList">
+                <li class="nav-list-item"><a href="index.html">Home</a></li>
+                <li class="nav-list-item"><a href="ourplans.html">Our Plans</a></li>
+                <li class="nav-list-item"><a href="about.html">About Us</a></li>
+                <li class="nav-list-item"><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="manu-icon" onclick="toggleManu()">
+                <div class=" line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+
+        <h1>Contact Us</h1>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <span>
+                        <h5>San Francisco Peyas Mah 468 Street Sugar 2 Apartment Floor 3 No. 11 Beach Road</h5>
+                        <p>San Francisco</p>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <h5>Contact us on Telegram</h5>
+                        <a href="https://t.me/CATRINAI">Telegram</a>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <!-- <p>Email us to get in Touch</p> -->
+                        <h5>Email Us</h5>
+                        <a href="mailto:Criptoworldminingcompany@gmail.com">Go to Email</a>
+                    </span>
+                </div>
+            </div>
+            <!-- <div class="contact-col">
+                <form action="formHandler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="10" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div> -->
+        </div>
+    </section>
+
+
+    <!-- Footer  -->
+    <footer>
+        <p>Copyright ©2022 All Rights Reserved | CRIPTO WORLD</p>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script>
+        let navLinks = document.getElementById("navList");
+        function toggleManu() {
+            console.log('clicked on show');
+
+            if (navLinks.style.right == "-400px") {
+                navLinks.style.right = "-135px";
+            }
+            else {
+                navLinks.style.right = "-400px";
+            }
+        }
+    </script>
+</body>
+
+</html>

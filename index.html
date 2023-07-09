@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav>
+        <a href="index.html"><img src="images/logo.jpg" alt="" class="logo"></a>
+        <ul class="nav-list" id="navList">
+            <li class="nav-list-item"><a href="index.html">Home</a></li>
+            <li class="nav-list-item"><a href="ourplans.html">Our Plans</a></li>
+            <li class="nav-list-item"><a href="about.html">About Us</a></li>
+            <li class="nav-list-item"><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="manu-icon" onclick="toggleManu()">
+            <div class=" line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="container">
+        <!-- <h1>Buy & Sell Digital Assets in the<br> <span>CRIPTO WORLD</span></h1> -->
+        <h1>Investing with peace of mind is our goal, work with us and get paid without any loses</h1>
+        <a href="mailto:Criptoworldminingcompany@gmail.com"> Email To Get Started</a>
+    </div>
+
+
+    <!-- About Bitcoin  -->
+    <section class="about-btc">
+        <div class="about-btc-column col-left">
+            <h1>What is Bitcoin?</h1>
+            <p> <b>Bitcoin is an innovative payment network and a new kind of money.</b></p>
+            <p>Bitcoin is one of the most important inventions in all of human history. For the first time ever, anyone
+                can send or receive any amount of money with anyone else, anywhere on the planet, conveniently and
+                without restriction. It's the dawn of a better, more free world.</p>
+            <a href="mailto:inaamilyas5@gmail.com">EXPLORE NOW</a>
+        </div>
+        <div class="about-btc-column col-right">
+            <img src="images/about-btc-img.png" alt="">
+        </div>
+    </section>
+
+
+
+    <!-- About us -->
+    <section class="about-company">
+        <h1>CRIPTO WORLD MINING COMPANY</h1>
+        <p>Trading with our platform is legit and generally accepted worldwide...and our company is certified and
+            authorised and Registered with the USA national futures association NFA I'd:0486418</p>
+        <a href="about.html">Know More</a>
+
+    </section>
+
+    <section class="details">
+        <h1>Market sentiments, portfolio, and run the infrastructure of your choice</h1>
+        <div class="details-content">
+            <div class="details-left">
+                <h2>Invest Smart</h2>
+                <p>Get full statistic information about the behaviour of buyers and sellers will help you to make the
+                    decision.</p>
+
+            </div>
+            <div class="details-right">
+                <img src="images/bitcoin-graph.svg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h1 class="testi-heading">What Our Clients Say</h1>
+        <p class="testi-para">Some of our regular clients told about our services. Check them out below</p>
+        <div class="row">
+            <div class="testimonials-column">
+                <img src="clients/sharon.jpg" alt="">
+                <div>
+                    <p>This platform have always ensured our satisfaction, paying all withdrawal instantly and securely
+                    </p>
+                    <h3>Sharon El Paso</h3>
+                    <p>4.9/5.0 Ratings</p>
+                </div>
+            </div>
+            <div class="testimonials-column">
+                <img src="clients/magnolia.jpg" alt="">
+                <div>
+                    <p>his company is absolutely amazing and I love it. Investing with trust is absolutely essential and
+                        this platform has given me mindset</p>
+                    <h3>Magnolia Linda</h3>
+                    <p>4.8/5.0 Ratings</p>
+                </div>
+            </div>
+            <div class="testimonials-column">
+                <img src="clients/Bromly.jpg" alt="">
+                <div>
+                    <p>나는 지금 이 플랫폼을 아주 오랫동안 지켜왔고 나는 그들이 최고 중 하나라고 자랑스럽게 말하고 있습니다. 사랑하는 친구를 축하합니다.</p>
+                    <h3>Bromley</h3>
+                    <p>4.5/5.0 Ratings</p>
+                </div>
+            </div>
+            <div class="testimonials-column">
+                <img src="clients/Atiq.jpg" alt="">
+                <div>
+                    <p>Asamaleku, Everybody is happy that there are investing with the right company.</p>
+                    <h3>Atiq Rehman</h3>
+                    <p>4.8/5.0 Ratings</p>
+                </div>
+            </div>
+    </section>
+
+
+
+    <!-- Footer  -->
+    <footer>
+        <p>Copyright ©2022 All Rights Reserved | CRIPTO WORLD</p>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script>
+        let navLinks = document.getElementById("navList");
+        function toggleManu() {
+            console.log('clicked on show');
+
+            if (navLinks.style.right == "-400px") {
+                navLinks.style.right = "-135px";
+            }
+            else {
+                navLinks.style.right = "-400px";
+            }
+        }
+    </script>
+</body>
+
+</html>

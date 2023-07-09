@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav>
+        <a href="index.html"><img src="images/logo.jpg" alt="" class="logo"></a>
+        <ul class="nav-list" id="navList">
+            <li class="nav-list-item"><a href="index.html">Home</a></li>
+            <li class="nav-list-item"><a href="ourplans.html">Our Plans</a></li>
+            <li class="nav-list-item"><a href="about.html">About Us</a></li>
+            <li class="nav-list-item"><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="manu-icon" onclick="toggleManu()">
+            <div class=" line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="plans">
+        <h1>Our Different Plans</h1>
+        <p>It is very difficult to purchase Bitcoin. Even if you do not have enough money to purchase a full Bitcoin or
+            Ethereum, you can join us from any part of the world to mine your own coins through our unlimited earnings
+            program.</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Purchase ($)</th>
+                    <th>Profit ($)</th>
+                    <!-- <th>Buy</th> -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>50</td>
+                    <td>205</td>
+                    <!-- <td><a href="">Contact Us</a></td> -->
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>100</td>
+                    <td>510</td>
+                    <!-- <td><a href="">Contact Us</a></td> -->
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>200</td>
+                    <td>820</td>
+                    <!-- <td><a href="">Contact Us</a></td> -->
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>300</td>
+                    <td>1200</td>
+                    <!-- <td><a href="">Contact Us</a></td> -->
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>500</td>
+                    <td>2000</td>
+                    <!-- <td><a href="">Contact Us</a></td> -->
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>1000</td>
+                    <td>5000</td>
+                    <!-- <td><a href="">Contact Us</a></td> -->
+                </tr>
+            </tbody>
+        </table>
+        <p>PROFIT IS RECEIVED IN 24 TO 48 HOURS MINING DURATION DEPENDING ON THE ACTUAL PLAN YOU CHOOSE. CHOOSE ANY
+            SUITABLE FOR YOU.</p>
+        <p><a href="" class="contact-btn">Contact Us for More information</a></p>
+
+    </section>
+
+    <!-- Footer  -->
+    <footer>
+        <p>Copyright ©2022 All Rights Reserved | CRIPTO WORLD</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        let navLinks = document.getElementById("navList");
+        function toggleManu() {
+            console.log('clicked on show');
+
+            if (navLinks.style.right == "-400px") {
+                navLinks.style.right = "-135px";
+            }
+            else {
+                navLinks.style.right = "-400px";
+            }
+        }
+    </script>
+</body>
+
+</html>
